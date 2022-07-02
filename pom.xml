@@ -8,6 +8,10 @@
 	<artifactId>sparkjava-hello-world</artifactId>
 	<version>1.0</version>
 	<packaging>war</packaging>
+	<properties>
+	   <maven.compiler.source>6</maven.compiler.source>
+	   <maven.compiler.target>1.6</maven.compiler.target>
+	</properties>
 
 	<dependencies>
 		<dependency>
